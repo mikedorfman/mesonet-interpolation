@@ -1,0 +1,12 @@
+# run: conda env create --file environment.yml
+name: mesonet-interpolation
+dependencies:
+ - python>=3.5
+ - anaconda
+ - pip
+ - metpy
+ - rasterio
+ - descartes
+ - geopandas
+ - pip:
+    - jupyter
